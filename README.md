@@ -10,3 +10,21 @@ Youtube: https://www.youtube.com/channel/UCdXg0-BF9FblZ2GTi3u4orQ
 
 
 Pokecommunity: https://www.pokecommunity.com/showthread.php?t=484949
+
+# Installation
+
+## Prerequisites
+
+* [mGBA Emulator](https://mgba.io/)
+* [Server](https://github.com/TheHunterManX/GBA-PK-multiplayer/releases/download/0.4/GBA-PK_Server.ALPHA.4.lua) Scipt
+* [Client](https://github.com/TheHunterManX/GBA-PK-multiplayer/releases/download/0.4/GBA-PK_Client.ALPHA.4.lua) Scipt
+
+## Quick Setup on Same PC
+
+### Steps
+
+1. Open mgba and load the game
+2. Go to Tools > Scripting > File > Load script...
+3. Select the `Server` lua file
+4. Go to File > New multiplayer window
+5. Repeat steps 1-3 on the new window, except choose the `Client` lua file

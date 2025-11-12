@@ -34,7 +34,8 @@ Pokecommunity: https://www.pokecommunity.com/showthread.php?t=484949
 ### Lua Config
 
 1. Get the IPv4 address of the PC slated to run the `Server.lua` file
-2. Open each `Client.lua` file, replace `127.0.0.1` with the Server's IPv4
+2. Open each `Client.lua` file and update the `IPAddress` variable
+   - On line 1 replace `127.0.0.1` with the Server's IPv4 address
 
 ### Emulator Steps
 
